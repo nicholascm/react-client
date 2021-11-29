@@ -189,3 +189,21 @@ export interface ISplitTreatmentsProps {
    */
   children: ((props: ISplitTreatmentsChildProps) => JSX.Element | null);
 }
+
+export interface ISimpleTreatmentProps {
+
+  /**
+   * list of Split names
+   */
+  names: string[];
+
+  /**
+   * An object of type Attributes used to evaluate the splits.
+   */
+  attributes?: SplitIO.Attributes;
+
+  /**
+   * Children of the SplitTreatments component. It must be a functional component (child as a function) you want to show.
+   */
+  children: JSX.Element | null;
+}

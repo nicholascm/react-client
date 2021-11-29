@@ -19,3 +19,6 @@ export { default as useManager } from './useManager';
 
 // SplitContext
 export { default as SplitContext } from './SplitContext';
+
+// Other useful components
+export { default as SimpleTreatment } from './SimpleTreatment';
